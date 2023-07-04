@@ -1,0 +1,31 @@
+node-modules
+.secret
+.infura
+.etherscan
+
+
+node_modules
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+
+
+
+# Hardhat files
+hardhat/cache
+hardhat/artifacts
+
+
+# Compiler files
+foundry/cache/
+foundry/out/
+
+# Ignores development broadcast logs
+foundry/!/broadcast
+foundry/broadcast/*/31337/
+foundry/files/broadcast/**/dry-run/
+
+# Docs
+foundry/docs/
